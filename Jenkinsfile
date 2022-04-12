@@ -13,7 +13,7 @@ pipeline {
         stage('Demo') {
             steps {
                 echo 'Hello world'
-                yourCustomStep 'your_arg'
+                yourCustomStep 'Steve'
             }
         }
     }
